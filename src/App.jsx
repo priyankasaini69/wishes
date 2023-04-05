@@ -2,7 +2,7 @@ import React from 'react';
 import css from './index.css';
 
 function App() {
-    let currDate = new Date(2023, 3, 29, 19);
+    let currDate = new Date();
     currDate = currDate.getHours();
     let greeting = '';
 
